@@ -2,8 +2,8 @@
 
 name: export-and-branch
 on:
- workflow_dispatch:
- inputs:
+    workflow_dispatch:
+       inputs:
  #Change this value
  solution_name:
  description: 'name of the solution to worked on from Power Platform'
